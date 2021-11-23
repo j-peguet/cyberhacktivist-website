@@ -11,7 +11,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 
-const Testimonial = ({
+const Prices = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'These users have been seduced by our services.'
+    title: 'Pricing',
+    paragraph: ''
   };
 
   return (
@@ -55,7 +55,6 @@ const Testimonial = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <span id="feedback"></span>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
@@ -63,16 +62,16 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — An innovative, comprehensive and efficient service.
+                    For people who want to try our service.
                     <br/>
-                    The CyberQuantum tool has revolutionised our IT department, while increasing our efficiency.
-                      </p>
+                    Or CyberHactivist wanting to be paid for their work.
+                    <br/>
+                    The ability to submit up to 10 keys per month and unlimited access to community forums.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Elliot Boucher</span>
-                  <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Edusign</a>
+                    <a href="#0">Free</a>
                   </span>
                 </div>
               </div>
@@ -82,14 +81,18 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — We are very pleased that our students were able to develop an innovative solution that fits perfectly with the spirit of today's IT companies.
+                    For companies wanting to test their infrastructure.
+                    <br/>
+                    The possibility to submit up to 100 keys per month.
+                    <br/>
+                    And instant reporting of your compromised keys.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Alexandrine Grohs</span>
+                  <span className="testimonial-item-name text-color-high">$ 150 per month</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Epsi Nantes</a>
+                    <a href="#0">Enterprise</a>
                   </span>
                 </div>
               </div>
@@ -99,16 +102,18 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — This application is revolutionary !
+                    All the advantages of the "Enterprise" formula.
                     <br/>
-                    It has given me a new vision of computer security. This choice is both innovative and one of the fastest on the cyber security market.
-                      </p>
+                    You will also benefit from a complete and regular support for all your key examinations.
+                    <br/>
+                    A dedicated team available 24/7 in case of compromised keys.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Vincent Lhoste</span>
+                  <span className="testimonial-item-name text-color-high">from $ 500 per month</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Ethical Hacking</a>
+                    <a href="#0">Enterprise +</a>
                   </span>
                 </div>
               </div>
@@ -121,7 +126,7 @@ const Testimonial = ({
   );
 }
 
-Testimonial.propTypes = propTypes;
-Testimonial.defaultProps = defaultProps;
+Prices.propTypes = propTypes;
+Prices.defaultProps = defaultProps;
 
-export default Testimonial;
+export default Prices;
