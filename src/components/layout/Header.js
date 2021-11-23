@@ -121,7 +121,11 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Test CyberQuantum now !</Link>
+                        <a href="http://cyberquantum.methaverse.fr" target="_blank">
+                          <span className="button button-primary button-wide-mobile button-sm">
+                          Test CyberQuantum now !
+                          </span>
+                        </a>
                       </li>
                     </ul>}
                 </div>
