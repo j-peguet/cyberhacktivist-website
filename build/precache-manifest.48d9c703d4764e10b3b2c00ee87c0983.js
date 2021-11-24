@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4fa462e2dad0a3008fc9334249674a1",
+    "revision": "8b2565845038c4e87bf8a012c4d8da06",
     "url": "/index.html"
   },
   {
-    "revision": "fedb6610a2ae93aef59d",
+    "revision": "37240b259a4d91fc2724",
     "url": "/static/css/main.54e4d357.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d0e7f974.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fedb6610a2ae93aef59d",
-    "url": "/static/js/main.702c3562.chunk.js"
+    "revision": "37240b259a4d91fc2724",
+    "url": "/static/js/main.8db440a1.chunk.js"
   },
   {
     "revision": "ea630fe81389fbceefbb",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
     "url": "/static/media/cta-illustration.3ce357e7.svg"
+  },
+  {
+    "revision": "44be2ea6d933c357f67d46b16d17b5a6",
+    "url": "/static/media/cyberquantum_logo.44be2ea6.png"
   },
   {
     "revision": "bd39f30434175e7c8b1d1c74fa6569fd",
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "63d0555d90c053eea1a1a7469d004661",
     "url": "/static/media/illustration-section-02.63d0555d.svg"
-  },
-  {
-    "revision": "2810a88b1d6365b363caeabe678f1629",
-    "url": "/static/media/logo.2810a88b.svg"
   },
   {
     "revision": "34a7864e6d8da185e21c7090253efb1f",
